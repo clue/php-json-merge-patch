@@ -8,7 +8,7 @@ It is primarily intended for use with the
 HTTP PATCH method as a means of describing a set of modifications to
 a target resource's content.
 
-> Note: This project is in early alpha stage! Feel free to report any issues you encounter.
+> Note: This project is in beta stage! Feel free to report any issues you encounter.
 
 ## Install
 
@@ -17,7 +17,7 @@ The recommended way to install this library is [through composer](http://getcomp
 ```JSON
 {
     "require": {
-        "clue/json-merge-patch": "dev-master"
+        "clue/json-merge-patch": "~0.1.0"
     }
 }
 ```
