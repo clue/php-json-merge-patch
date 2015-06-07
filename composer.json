@@ -1,0 +1,19 @@
+{
+    "name": "clue/json-merge-patch",
+    "description": "JSON merge patch (RFC 7396) is a simple alternative to JSON patch (RFC 6902)",
+    "keywords": ["JSON merge patch", "patch file", "RFC 7396"],
+    "homepage": "https://github.com/clue/php-json-merge-patch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@lueck.tv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Clue\\JsonMergePatch\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.3"
+    }
+}
